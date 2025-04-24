@@ -48,9 +48,30 @@ Test your knowledge, challenge your friends, and enjoy a buttery-smooth quiz exp
 
 > System architecture of Quezz — including API integration, fallback handling, and component structure.
 
-![Quezz Architecture](public/architecture.png)
+```mermaid
+flowchart TD
+  User[User]
+  Browser[Browser]
+  App[Nextjs App Router]
+  UI[UI Components]
+  Motion[Framer Motion]
+  Logic[Quiz Logic State]
+  API[Open Trivia API]
+  Fallback[Local JSON Fallback]
 
-> _Generated with [PlantUML](https://plantuml.com/), located at `/public/architecture.png`_
+  User --> Browser
+  Browser --> App
+  App --> UI
+  App --> Motion
+  App --> Logic
+  Logic --> API
+  Logic --> Fallback
+  UI --> Logic
+  Logic --> UI
+
+```
+
+> _Generated with [mermaid](https://plantuml.com/), 
 
 ---
 
@@ -121,13 +142,6 @@ Pull requests are welcome! If you'd like to:
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-Made with 💙 by [Srikar](https://github.com/Arknight007)  
-If you enjoyed this, drop a ⭐ on the repo!
 
 ---
 
