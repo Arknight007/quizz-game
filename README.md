@@ -1,7 +1,7 @@
 # Quizz - The Smartest Quiz Companion
 
-[![Vercel Deployment](https://vercelbadge.vercel.app/api/Arknight007/quezz)](https://quezz.vercel.app)
-![MIT License](https://img.shields.io/github/license/Arknight007/quezz)
+[![Vercel Deployment](https://vercelbadge.vercel.app/api/Arknight007/quizz-game)](https://quezz.vercel.app)
+![MIT License](https://img.shields.io/github/license/Arknight007/quizz-game)
 ![Next.js](https://img.shields.io/badge/Built%20with-Next.js-000?logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-38BDF8?logo=tailwindcss&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/Powered%20by-TypeScript-3178C6?logo=typescript&logoColor=white)
